@@ -1,0 +1,21 @@
+# 构建产物
+build/
+build_test/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+compile_commands.json
+
+# IDE（保留 .vscode 与 .settings，团队在用）
+.idea/
+*.iws
+*.iml
+.cache/
+
+# 系统
+.DS_Store
+Thumbs.db

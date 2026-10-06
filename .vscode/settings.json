@@ -1,0 +1,19 @@
+{
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_MAKE_PROGRAM=/usr/bin/ninja",
+        "-DCMAKE_COMMAND=cube-cmake"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "cmake.environmentVariables": {
+        "PATH": "/home/wyx/snap/code/231/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin:/home/wyx/snap/code/231/.local/share/stm32cube/bundles/ninja/1.13.2+st.1/bin:/home/wyx/snap/code/231/.local/share/stm32cube/bundles/stlink-gdbserver/7.13.0+st.3/bin:${env:PATH}"
+    },
+    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.arguments": [
+        "starm-clangd",
+        "--query-driver=/home/wyx/snap/code/231/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc*",
+        "--query-driver=/home/wyx/snap/code/231/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++*"
+    ]
+}
